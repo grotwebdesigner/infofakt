@@ -1,85 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InfoFakt</title>
-    <link rel="shortcut icon" href="computer.png" type="image/png">
-    <meta name="description" content="Emelt színtű felkészítő anyagok">
-    <meta name="keywords" content="érettségi, emelt szint, informatika">
-    <meta name="author" content="Tóth Attila">
-</head>
-<body>
-    <img width="100%" src="informatics_skills_2.png" alt="Informatikai háttérkép">
-    <h1>Üdvözlet az InfoFakt oldalán!</h1>
-    <a href="#linkek">Ugrás a linkekhez!</a>
-    <h2>Hírek</h2>
-    <p>Elkezdtük az idei első felkészítő kurzusunkat.</p>
 
-    <h2>Rólunk</h2>
-    <p>Oktató: Kovács Géza</p>
-    <p>Oktató: Nagy Béla</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>InfoFakt</title>
+        <link rel="shortcut icon" href="computer.png" type="image/png" />
+        <meta name="description" content="Emelt színtű felkészítő anyagok" />
+        <meta name="keywords" content="érettségi, emelt szint, informatika" />
+        <meta name="author" content="Tóth Attila" />
+    </head>
 
-    <h2>Időbeosztás</h2>
-    <table border="1">
-        <tr>
-            <th>Hetek száma</th>
-            <th>Tananyag</th>
-            <th>Szint</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>Változók és operátorok</td>
-            <td>kezdő</td>       
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>Vezérlési szerkezetek</td>
-            <td rowspan="2">haladó</td>       
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Tömbök és algoritmusok<td>       
-        </tr>
-    </table>
-    <caption>* Hetek időbeosztása</caption>
-    
-    <pre>
+    <body>
+        <img width="100%" src="informatics_skills_2.png"
+            alt="Informatikai háttérkép" />
+        <h1>Üdvözlet az InfoFakt oldalán!</h1>
+        <a href="#linkek">Ugrás a linkekhez!</a>
+        <h2>Hírek</h2>
+        <p>Elkezdtük az idei első felkészítő kurzusunkat.</p>
+
+        <h2>Jelentkezési lap</h2>
+        <form action>
+            <label>Add meg a neved</label>
+            <br />
+            <input type="text" name="nev" id />
+            <br />
+            <label for>Add meg az E-mail címedet</label>
+            <br />
+            <input type="text" name="email">
+            <br />
+            <label for>Mikor születtél?</label>
+            <br />
+            <input type="date">
+            <br />
+            <label for>Milyen színtűnek tartod magad informatikából?</label>
+            <br />
+            <select name id>
+                <option value>Kezdő</option>
+                <option value selected>Haladó</option>
+                <option value>Profi</option>
+            </select>
+            <br />
+            <label for>Milyen módon szeretnél felkészűlni?</label>
+            <br />
+            <input type="checkbox"> Online
+            <br />
+            <input type="checkbox"> Személyes
+            <br />
+            <label for>Van saját laptopod?</label>
+            <br />
+            <input type="radio" name="laptop"> igen
+            <br />
+            <input type="radio" name="laptop"> nincs
+            <br />
+            <input type="submit" value="Jelentkezés leadása">
+        </form>
+
+        <h2>Rólunk</h2>
+
+        <p>Oktató: Kovács Géza</p>
+        <p>Oktató: Nagy Béla</p>
+
+        <h2>Időbeosztás</h2>
+
+        <table border="1">
+            <tr>
+                <th>Hetek száma</th>
+                <th>Tananyag</th>
+                <th>Szint</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Változók és operátorok</td>
+                <td>kezdő</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Vezérlési szerkezetek</td>
+                <td rowspan="2">haladó</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Tömbök és algoritmusok</td>
+                <td></td>
+            </tr>
+        </table>
+        <caption>
+            * Hetek időbeosztása
+        </caption>
+
+        <pre>
         Ez egy előre formázott
         szöveg...
     </pre>
 
-    <h2>Kapcsolat</h2>
+        <h2>Kapcsolat</h2>
 
-    <p>Email: hello@infofakt.hu</p>
-    <h2 id="linkek">Partner oldalak</h2>
-    <a href="https://multunk-portal.hu" target="_blank">Multunk Portál</a>
-    <br />
-    <br />
-    <a href="https://knowcamp.org" target="_blank">KnowCamp hivatalos oldala</a>
-    <br>
-    <br>
-    <hr/>
+        <p>Email: hello@infofakt.hu</p>
+        <h2 id="linkek">Partner oldalak</h2>
+        <a href="https://multunk-portal.hu" target="_blank">Multunk Portál</a>
+        <br />
+        <br />
+        <a href="https://knowcamp.org" target="_blank">KnowCamp hivatalos oldala</a>
+        <br />
+        <br />
+        <hr />
 
-    <h2>Szükséges előismeretek</h2>
+        <h2>Szükséges előismeretek</h2>
 
-    <ul>
-        <li>Analitikus szemléletmód</li>
-        <li>Problémamegoldó képesség</li>
-        <li>Kreatív gondolkodás</li>
-        <li>
-            Egyéb skillek
-            <ol>
-                <li>Matematika</li>
-                <li>Fizika</li>
-                <li>Villamosságtan</li>
-            </ol>
-        </li>
-    </ul>
-    <h2>Bemutató videó</h2>
-        <video height="200">
-            <source src="intro.mp4" />
+        <ul>
+            <li>Analitikus szemléletmód</li>
+            <li>Problémamegoldó képesség</li>
+            <li>Kreatív gondolkodás</li>
+            <li>
+                Egyéb skillek
+                <ol>
+                    <li>Matematika</li>
+                    <li>Fizika</li>
+                    <li>Villamosságtan</li>
+                </ol>
+            </li>
+        </ul>
+        <h2>Bemutató videó</h2>
+        <video height="200" controls autoplay>
+            <source src="intro.mp4" type="video/mp4" />
         </video>
-</body>
+    </body>
+
 </html>
