@@ -1,0 +1,167 @@
+.pirosszinezes{
+    color: red;
+}
+
+.kekszinezes{
+    color: blue;
+}
+
+.zoldszinezes{
+    color: green;
+}
+
+.pirosszinezes, .kekszinezes, .zoldszinezes{
+    margin-left: 1px;
+}
+
+.kiemelt{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.szokiemeles{
+    font-weight: bolder;
+    color: red;
+}
+
+
+
+body{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#header{
+    background-image: url('images/header.png');
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 0px black, -3px -3px 0px black;
+    font-size: 100px;
+    line-height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    padding: 10px;
+}
+
+body{
+    padding: 0px;
+}
+
+#nav{
+    text-align: center;
+    height: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav .menu{
+    line-height: 40px;
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    font-weight: 600;
+}
+
+#nav .menu:hover{
+    background-color: lightsalmon;
+}
+
+.bemutatoszoveg{
+    font-size: 1.3em;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#applyform label{
+    font-size: 1.2em;
+}
+
+
+
+#applyform label, select, input{
+    margin: 10px;
+}
+
+#applyform select,input[type="text"], input[type="date"]{
+    padding: 10px;
+    width: 95%;
+    margin: 10px;
+}
+
+#applyform select{
+    width: 97%;
+}
+
+#applyform input[type="submit"]{
+    width: 95%;
+    padding: 10px;
+    font-weight: 600;
+    background-color: lightblue;
+}
+
+#applyform label, select, input[type="text"], input[type="date"], input[type="submit"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    width: 95%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table th, td {
+    padding: 10px;
+}
+
+table th{
+    background-color: beige;
+}
+
+table td{
+    text-align: center;
+}
+
+table tr:hover{
+    background-color: lightcyan;
+}
+
+.teacherbela, .teachergeza{
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+    padding-right: 50px;
+    background-size: auto 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-size: 1.4em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightyellow;
+}
+
+.teacherbela{
+    background-image: url('images/bela.jpg');
+}
+
+.teachergeza{
+    background-image: url('images/geza.jpg');
+}

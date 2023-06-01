@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infofakt | Kovács András oldala</title>
+	<link rel="icon" href="images/icon.png" type="image/png">
+	<meta name="description" content="Emelt szintű érettségi felkészítő anyagok">
+	<meta name="keywords" content="érettségi, emelt szint, informatikai">
+	<meta name="author" content="Kovács András">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		#rajz, #video{
+			width: 50%;
+			float: left;
+			text-align: center;
+		}
+
+		#rajz svg{
+			border: 1px solid black;
+		}
+
+		#clearfix{
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		INFOFAKT.HU
+	</div>
+	<div id="nav">
+		<span class="menu"><a href="#hirek">Hírek</a></span>
+		<span class="menu"><a href="#jelentkezes">Jelentkezés</a></span>
+		<span class="menu"><a href="#rolunk">Rólunk</a></span>
+		<span class="menu"><a href="#idobeosztas">Időbeosztás</a></span>
+		<span class="menu"><a href="#kapcsolat">Kapcsolat</a></span>
+		<span class="menu"><a href="#kedvcsinalo">Kedvcsináló</a></span>
+	</div>
+	<div id="content">
+
+		<p class="bemutatoszoveg">Ezen a weboldalon különböző érettségi felkészítő feladatsorokat teszünk közzé</p>
+	
+		<h2 id="hirek" class="pirosszinezes">Hírek</h2>
+		<p>Elkezdtük az idei első <span class="szokiemeles">érettségi</span> felkészítő kurzusunkat</p>
+	
+		<h2 id="jelentkezes" class="pirosszinezes">Jelentkezés a felkészítőre</h2>
+		<form id="applyform">
+			<label>Add meg a neved</label>
+			<input type="text"/>
+			<label>Add meg az email címed</label>
+			<input type="text"/>
+			<label>Mikor születtél?</label>
+			<input type="date" />
+			<label>Milyen szinten vagy jelenleg?</label>
+			<select>
+				<option>Kezdő</option>
+				<option selected>Haladó</option>
+				<option>Profi</option>
+			</select>
+			<label>Milyen formában szeretnél felkészülni?</label>
+			<input type="checkbox" /> <span class="item">Online</span> 
+			<input type="checkbox" /> <span class="item">Személyesen</span> 
+			<label>Van saját laptopod?</label>
+			<input type="radio" name="laptop" /> <span class="item">Igen, van</span> 
+			<input type="radio" name="laptop"/> <span class="item">Nem, nincs</span>  
+			<input class="pirosszinezes" type="submit" value="Jelentkezés leadása" />
+		</form>
+	
+	
+		<h2 id="rolunk" class="kekszinezes">Rólunk</h2>
+		<div class="kiemelt">
+			<p>Az alábbiakban bemutatkoznak oktatóink</p>
+			<div class="teachergeza">
+				Kovács Géza
+			</div>
+			<div class="teacherbela">
+				Nagy Béla
+			</div>
+		</div>
+	
+		<h2 id="idobeosztas" class="kekszinezes">Időbeosztás</h2>
+		<table border="1">
+			<tr>
+				<th>Hetek száma</th>
+				<th>Tananyag</th>
+				<th>Szint</th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td>Változók és operátorok</td>
+				<td>Kezdő</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>Vezérlési szerkezetek</td>
+				<td>Haladó</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>Tömbök és algoritmusok</td>
+				<td>Haladó</td>
+			</tr>
+		</table>
+		
+	
+		<h2 id="kapcsolat" class="zoldszinezes">Kapcsolat</h2>
+		<p>Email: hello@infofakt.hu</p>
+	
+		<h2 id="linkek" class="zoldszinezes">Partner oldalak</h2>
+		<a href="https://knowcamp.org" target="_blank">KnowCamp hivatalos oldal</a>
+		<br/>
+		<br/>
+		<a href="https://magyarorszag.hu" target="_blank">Magyarország oldala</a>
+	
+		<br/>
+		<br/>
+		<hr/>
+	
+		<h2>Szükséges előismeretek</h2>
+		<ul>
+			<li>Analitikus szemléletmód</li>
+			<li>Problémamegoldó képesség</li>
+			<li>Kreatív gondolkodás</li>
+			<li>
+				Egyéb skillek
+				<ul>
+					<li>Matematika</li>
+					<li>Fizika</li>
+					<li>Villamosságtan</li>
+				</ul>
+			</li>
+		</ul>
+
+		<hr/>
+		
+		<div id="rajz">
+			<h2 id="kedvcsinalo">Kedvcsináló rajz</h2>
+			<svg height="200" width="300">
+				<rect stroke="black" stroke-width="4" x="50" y="50" height="100" width="100" fill="green" />
+				<circle stroke="black" stroke-width="4" cx="50" cy="50" r="20" fill="red" />
+				<circle stroke="black" stroke-width="4" cx="50" cy="150" r="20" fill="red" />
+				<circle stroke="black" stroke-width="4" cx="150" cy="50" r="20" fill="red" />
+				<circle stroke="black" stroke-width="4" cx="150" cy="150" r="20" fill="red" />
+			</svg>
+		</div>
+		<div id="video">
+			<h2>Bemutató videó</h2>
+			<video height="200" controls>
+				<source src="videos/intro.mp4"/>
+			</video>
+		</div>
+
+		<div id="clearfix">
+
+		</div>>
+		
+	</div>
+	
+	
+</body>
+</html>

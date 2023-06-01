@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, world! </h1>
+    
+    <?php
+        /* echo $vel;
+        echo "<br/>";
+        $maradek = $vel % 2;
+        
+        if ($maradek == 0){
+            echo "páros";
+        }
+        else{
+            echo "páratlan";
+        } */
+
+        /* $vel = rand(-10,10);
+        echo $vel . "<br/>";
+
+        if($vel < 0){
+            echo "Nullánál kisebb";
+        }
+        else if ($vel > 0){
+            echo "Nullánál nagyobb";
+        }
+        else{
+            echo "Pontosan nulla";
+        } */
+
+        $i = 5;
+        while($i < 10){
+            echo "almafa<br/>";
+            $i++;
+        }
+    ?>
+
+</body>
+</html>

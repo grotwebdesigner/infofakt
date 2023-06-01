@@ -1,0 +1,35 @@
+label, input {
+    margin: 10px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1.3em;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+th{
+    background-color: ivory;
+}
+
+p{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
